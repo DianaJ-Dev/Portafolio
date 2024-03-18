@@ -1,0 +1,225 @@
+@import url('https://fonts.google.com/share#how-to-use?selection.family=Courgette|Lobster|Oleo+Script:wght@400;700');
+
+
+  body {
+    background: #0d0d0d;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  /*navbar*/
+  .nav-link{
+    font-family: 'Courgette';
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+  }
+
+  .foto{
+    width: 30%;
+  } 
+
+  .navbar-brand{
+    font-family: 'Courgette';
+    font-size: 30px;
+  }
+
+  /*cardStar*/
+  .cardStar{
+    width: 50%;
+    height: 600px;
+    background-color: transparent;
+    border: none;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: -6%;
+  }
+
+  .card-title{
+    color: #d6d315;
+    font-family: 'Courgette';
+  }
+
+  .card-text{
+    margin-top: 4%;
+    color:#d4cff0
+    
+  }
+
+  .write{
+    margin-left: 70%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    color:#d4cff0
+  }
+
+  .nav-email{
+    background-color:#fff;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 8px;
+    width: 69%;
+    font-family: 'Courgette';
+  }
+
+
+  .span{
+    color: #fff;
+    font-family: 'Courgette';
+    margin-left: 50%;
+    font-size: 1.6em;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .links{
+    background-color: #fff;
+    margin-bottom: 2%;
+    padding: -1%;
+    border-radius: 8px;
+    width: 30%;
+    font-family: 'Courgette';
+    margin-right: 5%;
+
+  }
+  
+  /*card-proyect*/
+
+  .proyec-title{
+    color: #d6d315;
+    font-family: 'Courgette';
+    text-align: center;
+    margin: 1%;
+  }
+
+  .card-title-proyect{
+    color: #11110f;
+    font-family: 'Courgette';
+    font-size: 2em;
+    margin: 1%;
+  }
+
+  .tecnologias{
+    width: 10%;
+    height: 40px;
+    display: flex;
+    margin-left: 20%
+  }
+
+  .tecnologia{
+    margin: 10%;
+  }
+
+  .card {
+    width:100%;
+    height: 700px; 
+    background-color: #e3dffa
+  }
+
+  .card-descripcion{
+    color: #11110f;
+  }
+
+  /*carrusel*/
+  .swiper {
+    width: 70%;
+    height: 700px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*aboutMe*/
+
+  .fotoNevado{
+    width: 70%;
+    height: 90%;
+    margin: 2%;
+  }
+
+  a{
+    font-size: 120%;
+  }
+
+  .aboutMe{
+    width: 70%;
+    height: 420px;
+    padding: 2%;
+    margin-left: 15%;
+    margin-top: 20%;
+  }
+
+  .card-title-aboutme{
+    font-family: 'Courgette';
+    font-size: 300%; 
+  }
+  
+  /*navbar-footer*/
+
+  .footter{
+    margin-top: 20%;
+  }
+
+  .navbar-footer{
+    font-family: 'Courgette';
+    display: flex;
+    justify-content: center;
+    font-size: 2em; 
+    margin-top: 30%;
+    color: black;    
+  }
+
+  .btn{
+    background-color: #d4cff0;
+    margin-top: 65%;
+
+  }
+
+  .form{
+    margin-left: 7%;
+  }
+
+  .fotter-contact{
+    font-family: 'Courgette';
+    margin-bottom: 5%;
+    margin-top: 10%;
+  }
+
+  .card-email-footer{
+    background-color: #d4cff0;
+    padding: 2%;
+    border-radius: 8px;
+    width: 90%;
+    font-family: 'Courgette';
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+  .bi-footer{
+    margin-top: -20%;
+  }
+
+  .span-footer{
+    color: black;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+
+  
+
