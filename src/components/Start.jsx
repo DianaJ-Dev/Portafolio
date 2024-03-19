@@ -8,6 +8,7 @@ export const Start = () => {
   
   return (
     <>
+    <div className="contenedorCard" >
       <div className="cardStar">
         <div className="row">
           <div className="col-md-7">
@@ -17,9 +18,9 @@ export const Start = () => {
               <h4 className="card-text">&quot;La mente que se abre a una nueva idea jamás volverá a su tamaño original.&quot;</h4>
               <h5 className="write"> Albert Einstein</h5>
               <div className="nav nav-email">
-                <h4 className="card-email mx-2">juliethdiana123@gmail.com</h4>
+                <h4 className="card-email">juliethdiana123@gmail.com</h4>
                 <CopyToClipboard text='juliethdiana123@gmail.com' onCopy={() => setcopied(true)}>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-copy mr-2 mx-4 cursor-pointer" viewBox="0 0 16 16">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" className="bi bi-copy mr-2 mx-4 cursor-pointer" viewBox="0 0 16 16">
                     <path fillRule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/>
                   </svg>
                 </CopyToClipboard>
@@ -40,6 +41,7 @@ export const Start = () => {
           </div>
         </div>
       </div>
+      </div> 
     </>
   )
 }

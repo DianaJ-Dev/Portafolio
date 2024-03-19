@@ -28,16 +28,16 @@ function App() {
           </li>
         </ul>
       </nav>
-      <div id="Start" style={{ height: '500px', border: '1px solid black', marginBottom: '20px' }}>
+      <div id="Start">
         <Start />
       </div>
-      <div id="Carrusel" style={{ height: '500px', border: '1px solid black', marginBottom: '20px' }}>
+      <div id="Carrusel">
         <Carrusel />
       </div>
-      <div id="AboutMe" style={{ height: '500px', border: '1px solid black' }}>
+      <div id="AboutMe">
         <AboutMe />
       </div>
-      <div id="Contact" style={{ height: '500px', border: '1px solid black' }}>
+      <div id="Contact">
         <Footer />
       </div>
     </ScrollSpy>
