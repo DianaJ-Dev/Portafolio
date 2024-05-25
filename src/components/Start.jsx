@@ -26,8 +26,8 @@ export const Start = () => {
                 </CopyToClipboard>
               </div>
               {copied && <span className="span" >Email Copiado</span>}
-              <ul className="nav">
-                <li className="nav links">
+              <ul className="nav fw-bold">
+                <li className="nav links ">
                   <a className="nav-link" href="https://drive.google.com/file/d/1uxhKIC_6qOK3Mtcf4-NTCQT9D9ys7D9D/view?usp=sharing">Descarga CV</a>
                 </li>
                 <li className="nav links" >

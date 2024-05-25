@@ -1,15 +1,14 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
 
 import '../index.css';
-import { Pagination } from 'swiper/modules';
 import { Card } from './Card';
 import { myProject } from '../helpers/proyectos';
 
-
-import { EffectCoverflow } from 'swiper/modules';
+import { EffectCoverflow, Navigation } from 'swiper/modules';
 
 export const Carrusel = () => {
 
@@ -29,11 +28,16 @@ export const Carrusel = () => {
         modifier: 1,
         slideShadows: true,
       }}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[EffectCoverflow, Pagination]}
+        navigation={true}
+        pagination={{ clickable: true }}
+        modules={[EffectCoverflow, Navigation]}
         className="mySwiper"
+        breakpoints={{
+          120: { slidesPerView: 1 },
+          480: { slidesPerView: 1},
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 }
+        }}
       >
         {
           myProject.map((project) => (

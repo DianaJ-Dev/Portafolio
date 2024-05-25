@@ -2,22 +2,24 @@ import PropTypes from 'prop-types';
 import '../index.css';
 
 export const Card = ({title,img,tecnologias,descripcion,gitHub,deploy}) => {
+  
   return (
     <>
     <div className="card" >
+    <h5 className="card-title-proyect">{title}</h5>
             <img className="card-img-top" src={img} ></img>
-                <div className="card-body">
-                    <h5 className="card-title-proyect">{title}</h5>
-                    <p className="card-descripcion">{descripcion}</p>
-                </div>
-                <div className="tecnologias">
+            <div className="tecnologias">
                     {tecnologias.map((imagen, index) => (
                         <img className="tecnologia" key={index} src={imagen} alt={`Imagen ${index}`} />
                     ))}
                 </div>
+                <div className="card-body ">
+                    <p className="card-descripcion">{descripcion}</p>
+                </div>
+                
                 <div className="card-body">
-                    <a href={gitHub} className="card-link text-dark">GitHub</a>
-                    <a href={deploy} className="card-link text-dark">Deploy</a>
+                    <a href={gitHub} className="card-link fw-bold">GitHub</a>
+                    <a href={deploy} className="card-link fw-bold">Deploy</a>
                 </div>
     </div>           
     </>

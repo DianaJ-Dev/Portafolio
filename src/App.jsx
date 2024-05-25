@@ -2,7 +2,7 @@ import ScrollSpy from "react-ui-scrollspy";
 import { Start } from './components/Start';
 import { Carrusel } from './components/Carrusel';
 import { AboutMe } from './components/AboutMe';
-import { Footer } from './components/Footer'
+import { Footer } from './components/Footer';
 
 import './index.css'
 
@@ -11,11 +11,11 @@ function App() {
   return (
     <>
     <ScrollSpy>
-      <nav className="navbar bg-body-tertiary px-4 mb-5">
+      <nav className="navbar bg-body-tertiary px-4 mb-3 fixed-top">
         <a className="navbar-brand" href="/">Diana Julieth Matamoros</a>
         <ul className="nav nav-pills">
           <li className="nav-item">
-            <a className="nav-link" href="#Start">Inicio</a>
+            <a className="nav-link" href="/">Inicio</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#Carrusel">Proyectos</a>
